@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zookeeper Application Form</title>
+</head>
+<body>
+    <h1>Zoo Keeper Application Form</h1>
+    <p><i>Please complete the form. Mandatory fields are marked with a <span style="color: red;">*</span></i></p>
+
+    <fieldset>
+        <legend><b>Contact Details</b></legend>
+        <label for="name">Name <span style="color: red;">*</span></label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="telephone">Telephone</label>
+        <input type="text" id="telephone" name="telephone"><br><br>
+
+        <label for="email">Email <span style="color: red;">*</span></label>
+        <input type="email" id="email" name="email"><br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Personal Information</b></legend>
+        <label for="age">Age <span style="color: red;">*</span></label>
+        <input type="text" id="age" name="age"><br><br>
+
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="zookeeper_interest">When did you first know you wanted to be a zoo-keeper?</label><br>
+        <textarea id="zookeeper_interest" name="zookeeper_interest" rows="4" cols="50"></textarea><br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Pick Your Favorite Animals</b></legend>
+        <input type="checkbox" id="zebra" name="animal" value="Zebra">
+        <label for="zebra">Zebra</label>
+
+        <input type="checkbox" id="cat" name="animal" value="Cat">
+        <label for="cat">Cat</label>
+
+        <input type="checkbox" id="anaconda" name="animal" value="Anaconda">
+        <label for="anaconda">Anaconda</label>
+
+        <input type="checkbox" id="human" name="animal" value="Human">
+        <label for="human">Human</label><br>
+
+        <input type="checkbox" id="elephant" name="animal" value="Elephant">
+        <label for="elephant">Elephant</label>
+
+        <input type="checkbox" id="wildebeest" name="animal" value="Wildebeest">
+        <label for="wildebeest">Wildebeest</label>
+
+        <input type="checkbox" id="pigeon" name="animal" value="Pigeon">
+        <label for="pigeon">Pigeon</label>
+
+        <input type="checkbox" id="crab" name="animal" value="Crab">
+        <label for="crab">Crab</label><br><br>
+    </fieldset>
+
+    <br>
+    <button type="submit">Submit Application</button>
+</body>
+</html>
